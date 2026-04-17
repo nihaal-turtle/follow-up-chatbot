@@ -1,16 +1,16 @@
 To test out the chatbot, create a .env file with the following fields
 
-LANGSMITH_TRACING=true
-LANGSMITH_ENDPOINT=https://api.smith.langchain.com
-LANGSMITH_API_KEY=
-LANGSMITH_PROJECT=
-GROQ_API_KEY=
+LANGSMITH_TRACING=true  <br>
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com <br>
+LANGSMITH_API_KEY= <br>
+LANGSMITH_PROJECT= <br>
+GROQ_API_KEY= <br>
 
-then create a virtual env using 
+then create a virtual env using <br>
 python -m venv .venv
 
-activate it using
+activate it using <br>
 source .venv/bin/activate
 
-run the chatbot through terminal using
+run the chatbot through terminal using <br>
 python3 chatbot.py
