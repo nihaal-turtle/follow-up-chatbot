@@ -12,5 +12,8 @@ python -m venv .venv
 activate it using <br>
 source .venv/bin/activate
 
+start the FastAPI server <br>
+uvicorn api:app --reload
+
 run the chatbot through terminal using <br>
 python3 chatbot.py
